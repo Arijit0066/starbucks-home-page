@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+.box1{
+    height: 10px;
+    background-color: #006341;
+}
+.logo-find-a-store-section{
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-left-find-store ul{
+    display: flex;
+}
+.nav-left-find-store ul li{
+    list-style: none;
+    padding: 10px;
+}
+.nav-left-find-store i{
+    font-size: 22px;
+    color: #006341;
+}
+.links{
+   width: 84%; 
+   margin: auto;
+   padding-top: 35px;
+   padding-bottom: 10px;
+   font-size: 13px;
+   opacity: 80%;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+}
+.links ul li{
+    letter-spacing: 1.6px;
+    list-style: none;
+    transition: .5s;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+/* ------------------register------------------ */
+.container img{
+    width: 100%;
+}
+.monsoon-delights{
+    position: relative;
+    bottom: 4px;
+}
+.topical{
+    position: relative;
+    bottom: 8px;
+}
+.scoope{
+    position: relative;
+    bottom: 13px;
+}
+.pay{
+    position: relative;
+    bottom: 18px;
+}
+.wen-revised{
+    position: relative;
+    bottom: 18px;
+}
+/*-- --------------lets us delight you--------------- -- */
+.delight-you{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.delight-you h1{
+    line-height: 90px;
+    font-size: 25px;
+}
+.delight-you h6{
+    font-family: 'Crete Round',Georgia,'Times New Roman',serif;
+    line-height: 20px;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* --------------------opportunity--------------------------- */
+.opportunity{
+    margin-top: 80px;
+}
+.opportunity-text h1{
+    line-height: 80px;
+}
+
+/* -------------------------footer------------------ */
+
+.foooter-social-media-icons{
+    margin-top: 70px;
+    background-color: #F0F0F0;
+    padding: 35px 0px;
+}
+.foooter-social-media-icons ul li{
+    list-style: none;
+    padding-left: 30px;
+    font-size: 30px;
+    transition: .1s;
+}
+.foooter-social-media-icons ul{
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+    opacity: 90%;
+}
+.foooter-social-media-icons ul li:hover{
+    
+}
+footer{
+    width: 90%;
+    margin: auto;
+    border-color: #F7F7F7;
+}
+.footer-links ul{
+    list-style: none;
+    display: inline-grid;
+    /* padding-top: 160px; */
+    padding: 20px;
+}
+.footer-img{
+    display: flex;
+    justify-content: right;
+}
+.footer-img img{
+    width: 15px;
+    position: relative;
+    bottom: 160px;
+    right: 50px;
+}
+.service-text li{
+    padding-left: 80px;
+}
+footer ul li h1{
+    font-size: 16px;
+    opacity: 80%;
+    line-height: 70px;
+}
+footer ul li{
+    font-size: 13px;
+    line-height: 30px;
+}
+.footer-links{
+    padding-top: 28px;
+    height: 200px;
+}
+.last-links ul {
+    list-style: none;
+    display: flex;
+    padding-left: 30px;
+}
+.last-links ul li{
+    padding-right: 20px;
+    font-weight: 550;
+    opacity: 70%;
+    padding-top: 15px;
+}
+.copyright-text{
+    padding-top: 16px;
+    padding-left: 35px;
+    font-size: 11px;
+    opacity: 90%;
+}
